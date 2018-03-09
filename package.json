@@ -1,0 +1,14 @@
+{
+  "name": "screenshot-script",
+  "version": "1.0.0",
+  "description": "script to take screenshots of a website",
+  "main": "index.js",
+  "author": "Mike Hsu <mike.hsu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^1.1.1"
+  }
+}
