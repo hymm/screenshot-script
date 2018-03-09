@@ -6,9 +6,12 @@
   "author": "Mike Hsu <mike.hsu@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --experimental-modules index.mjs"
   },
   "dependencies": {
     "puppeteer": "^1.1.1"
+  },
+  "engines": {
+    "node": "^8.9.4"
   }
 }
